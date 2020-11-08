@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.2 on linux)" generated="20200927 11:51:05.634" rpa="false">
+<suite id="s1" name="Apptext" source="/home/salehin/Desktop/sikuliWithRobot/apptext.robot">
+<test id="s1-t1" name="Test Login App">
+<kw name="Click On App Icon">
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>appIcon.png</arg>
+</arguments>
+<msg timestamp="20200927 11:51:12.173" level="INFO">Params: [appIcon.png]
+[error] ImagePath: find: not there: appIcon.png</msg>
+<msg timestamp="20200927 11:51:12.173" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1601185871966.png'/&gt;
+[error] ImagePath: find: not there: appIcon.png</msg>
+<msg timestamp="20200927 11:51:12.174" level="FAIL">com.github.rainmanwy.robotframework.sikulilib.exceptions.TimeoutException: Timeout happend, could not find P(appIcon.png -- not valid!) S: 0.699999988079071</msg>
+<status status="FAIL" starttime="20200927 11:51:08.401" endtime="20200927 11:51:12.174"></status>
+</kw>
+<status status="FAIL" starttime="20200927 11:51:08.400" endtime="20200927 11:51:12.174"></status>
+</kw>
+<status status="FAIL" starttime="20200927 11:51:08.400" endtime="20200927 11:51:12.174" critical="yes">com.github.rainmanwy.robotframework.sikulilib.exceptions.TimeoutException: Timeout happend, could not find P(appIcon.png -- not valid!) S: 0.699999988079071</status>
+</test>
+<doc>Sikuli Library Demo</doc>
+<status status="FAIL" starttime="20200927 11:51:05.635" endtime="20200927 11:51:12.175"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Apptext">Apptext</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

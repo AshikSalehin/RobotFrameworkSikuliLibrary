@@ -1,0 +1,2 @@
+[0926/182005.073974:ERROR:nacl_helper_linux.cc(308)] NaCl helper process running without a sandbox!
+Most likely you need to configure your SUID sandbox correctly

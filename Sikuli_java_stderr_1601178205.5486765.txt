@@ -1,0 +1,19 @@
+[7899:7899:0927/094328.555969:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[7837:7862:0927/104106.937320:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Fontconfig error: Cannot load default config file: No such file: (null)
+[7899:7899:0927/104754.616108:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[7899:7899:0927/104754.616604:ERROR:shared_image_manager.cc(214)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[7902:7909:0927/110124.094246:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7902:7909:0927/110124.547909:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7902:7909:0927/110124.548246:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7902:7909:0927/111310.548585:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7902:7909:0927/111310.549006:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7902:7909:0927/112130.363343:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -107
+[7902:7909:0927/112130.555879:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -107
+[7902:7909:0927/112821.042045:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -113
+Fontconfig error: Cannot load default config file: No such file: (null)
+[7902:7909:0927/113032.900904:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -202
+[7902:7909:0927/113827.311870:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -202
+[7902:7909:0927/113827.315274:ERROR:ssl_client_socket_impl.cc(963)] handshake failed; returned -1, SSL error code 1, net_error -202
+[0927/114928.024741:ERROR:nacl_helper_linux.cc(308)] NaCl helper process running without a sandbox!
+Most likely you need to configure your SUID sandbox correctly

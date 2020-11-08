@@ -1,0 +1,19 @@
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+0 [main] INFO org.eclipse.jetty.server.Server  - jetty-7.x.y-SNAPSHOT
+23 [main] INFO org.eclipse.jetty.server.handler.ContextHandler  - started o.e.j.s.ServletContextHandler{/,null}
+79 [main] INFO org.eclipse.jetty.server.AbstractConnector  - Started SelectChannelConnector@0.0.0.0:41345
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007ff8cba9c0ad, pid=4114, tid=4124
+#
+# JRE version: OpenJDK Runtime Environment (11.0.8+10) (build 11.0.8+10-post-Ubuntu-0ubuntu120.04)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.8+10-post-Ubuntu-0ubuntu120.04, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x30ad]
+#
+# No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# An error report file with more information is saved as:
+# /home/salehin/Desktop/sikuliWithRobot/hs_err_pid4114.log
